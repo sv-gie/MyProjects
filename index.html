@@ -1,23 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>SV GIE</title>
-    </head>
-   <body>
-     <h1>Joe Biden will take oath as the 46th President of United States</h1>
-     <h2>Joe Biden will take oath as the 46th President of United States</h2>
-     <h3>Joe Biden will take oath as the 46th President of United States</h3>
-     <h4>Joe Biden will take oath as the 46th President of United States</h4>
-     <h5>Joe Biden will take oath as the 46th President of United States</h5>
-     <h6>Joe Biden will take oath as the 46th President of United States</h6>
-     
-     <p>Months after the 2020 Presidential elections, Joe Biden is set to be sworn in as the 46th President of the United States of America, and Kamala Harris as the country's first woman Vice President. Mr. Biden, 78, will take oath in a heavily fortified ceremony that is scheduled to begin at 8.30 p.m. IST, following which he is expected to deliver the inaugural address.</p>
-   
-    <p>HTML stands for Hyper Text Markup Language <br>
-        HTML is the standard markup language for creating Web pages <br>
-        HTML describes the structure of a Web page <br>
-        HTML consists of a series of elements <br>
-        HTML elements tell the browser how to display the content <br>
-        HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.    </p>
-    </body>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h2>Ragahvender K</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">Education  M.Tech 64%</div>
+  <div class="column" style="background-color:#bbb;">Skill Set</div>
+  <div class="column" style="background-color:#ccc;">Projects</div>
+</div>
+
+<div class="footer">
+  <p>raghavenderk421@gmail.com , Maddigatla , Boothpur , MBNR , Telangana , India</p>
+</div>
+
+</body>
 </html>
